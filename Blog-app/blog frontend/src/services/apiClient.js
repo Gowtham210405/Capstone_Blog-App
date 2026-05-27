@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Get API base URL from environment variables
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://capstone-blog-app.onrender.com";
 
 /**
  * Centralized Axios instance for all API calls
